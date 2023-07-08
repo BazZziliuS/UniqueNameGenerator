@@ -15,7 +15,7 @@ while len(words) < words_count:
             else:
                 new_word += char.lower()
         else:
-            new_word += str(random.randint(0, 9))  # замена буквы на случайную цифру
+            new_word += str(random.randint(0, 9))
     if new_word not in words:
         words.add(new_word)
 
